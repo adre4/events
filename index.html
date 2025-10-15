@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Montrose Events</title>
+  <meta name="description" content="A simple, community-run hub for events in Montrose, Colorado. Submit, discover, and share what's happening this week." />
+  <meta property="og:title" content="Montrose Events" />
+  <meta property="og:description" content="Community-run hub for events in Montrose, Colorado." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="favicon.svg" />
+  <link rel="icon" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1>Montrose<span class="accent">Events</span></h1>
+      <nav class="top-nav">
+        <a href="#weekend">This Weekend</a>
+        <a href="#all">All Events</a>
+        <a href="#submit">Submit</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Find something great to do.</h2>
+      <p class="tagline">Hyper-local events around Montrose, Colorado — updated by the community.</p>
+      <div class="controls">
+        <input id="search" type="search" placeholder="Search events, venues, or tags…" aria-label="Search events">
+        <div class="filters">
+          <button class="chip is-active" data-filter="all">All</button>
+          <button class="chip" data-filter="nonprofit">Nonprofit</button>
+          <button class="chip" data-filter="family">Family</button>
+          <button class="chip" data-filter="music">Music</button>
+          <button class="chip" data-filter="outdoors">Outdoors</button>
+        </div>
+        <label class="toggle">
+          <input type="checkbox" id="weekendOnly" checked>
+          <span>Show this weekend only</span>
+        </label>
+      </div>
+      <p class="hint" id="weekendRange"></p>
+    </div>
+  </section>
+
+  <main class="container">
+    <div id="events" class="grid"></div>
+    <p id="empty" class="empty" hidden>No matching events yet. Try removing filters or check back soon.</p>
+  </main>
+
+  <section class="submit" id="submit">
+    <div class="container">
+      <h3>Submit an event</h3>
+      <p>Have an event in Montrose or nearby? Add it in seconds. We verify nonprofit/community events ASAP.</p>
+      <div class="submit-grid">
+        <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLSf-placeholder/viewform" target="_blank" rel="noopener">Google Form</a>
+        <a class="cta secondary" href="mailto:events@montrose.community?subject=Event%20Submission&body=Event%20Title:%0ADate:%0ATime:%0AVenue/Address:%0ALink:%0ATags%20(comma-separated):%0ADescription:"
+          >Email details</a>
+        <a class="cta secondary" href="events.json" download>Download events.json</a>
+      </div>
+      <p class="micro">Maintained by volunteers. Want to help? <a href="mailto:events@montrose.community?subject=Volunteer">Get in touch</a>.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Made with ♥ for Montrose. Updated <span id="updated"></span>.</p>
+      <p class="micro">This is a community-run site. Please verify details with official organizers.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

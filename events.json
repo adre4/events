@@ -1,0 +1,73 @@
+{
+  "events": [
+    {
+      "title": "Montrose Women\u2019s Club Fall Craft Show",
+      "start": "2025-10-17T09:00:00-06:00",
+      "end": "2025-10-17T16:00:00-06:00",
+      "venue": "Friendship Hall, 1036 N 7th Ave",
+      "map": "https://maps.google.com/?q=Friendship+Hall+1036+N+7th+Ave+Montrose+CO",
+      "link": "https://example.com/womens-club-craft-show",
+      "tags": [
+        "nonprofit",
+        "family",
+        "market"
+      ],
+      "description": "Local artisans & makers; proceeds support community projects. Day 1 of 2."
+    },
+    {
+      "title": "Montrose Women\u2019s Club Fall Craft Show (Day 2)",
+      "start": "2025-10-18T09:00:00-06:00",
+      "end": "2025-10-18T16:00:00-06:00",
+      "venue": "Friendship Hall, 1036 N 7th Ave",
+      "map": "https://maps.google.com/?q=Friendship+Hall+1036+N+7th+Ave+Montrose+CO",
+      "link": "https://example.com/womens-club-craft-show",
+      "tags": [
+        "nonprofit",
+        "family",
+        "market"
+      ],
+      "description": "Local artisans & makers; proceeds support community projects. Day 2 of 2."
+    },
+    {
+      "title": "Uncompahgre Pow Wow",
+      "start": "2025-10-18T11:00:00-06:00",
+      "end": "2025-10-18T19:00:00-06:00",
+      "venue": "Montrose County Event Center / Friendship Hall",
+      "map": "https://maps.google.com/?q=1036+N+7th+Ave+Montrose+CO",
+      "link": "https://example.com/uncompahgre-powwow",
+      "tags": [
+        "nonprofit",
+        "culture",
+        "family"
+      ],
+      "description": "Dancing, drumming, Native & local vendors. Free and open to the public."
+    },
+    {
+      "title": "Friends of the Black Canyon \u2014 26th Birthday Bash & Tapping Party",
+      "start": "2025-10-18T17:00:00-06:00",
+      "end": "2025-10-18T20:00:00-06:00",
+      "venue": "Pomona Brewing Co.",
+      "map": "https://maps.google.com/?q=Pomona+Brewing+Co+Montrose+CO",
+      "link": "https://example.com/friends-black-canyon-bash",
+      "tags": [
+        "nonprofit",
+        "music"
+      ],
+      "description": "Celebrate the park's 26th with a special release; supports Friends of the Black Canyon."
+    },
+    {
+      "title": "Faultless \u2014 Halloween Glow Golf (Fundraiser)",
+      "start": "2025-10-18T18:00:00-06:00",
+      "end": "2025-10-18T23:00:00-06:00",
+      "venue": "Cobble Creek Golf Course, 699 Cobble Dr",
+      "map": "https://maps.google.com/?q=699+Cobble+Dr+Montrose+CO",
+      "link": "https://example.com/faultless-glow-golf",
+      "tags": [
+        "nonprofit",
+        "nightlife",
+        "fundraiser"
+      ],
+      "description": "Glow golf, costume contest, and dancing\u2014supports consent education & survivor services."
+    }
+  ]
+}
